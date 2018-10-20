@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #f7fafb;
+}
+
+a {
+    color: #aaa;
+}
+
+.cc-site {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Form Fields */
+.cc-form-fields {
+    padding: 3rem 0 6rem 0;
+    background: linear-gradient(-90deg,#dc5a32,#c44a67);
+}
+
+.cc-select-fields {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 900px;
+    width: 100%;
+}
+
+.cc-select-fields > div {
+    width: 48%;
+    padding: 0 .5rem;
+}
+
+.cc-select-fields > div:nth-child(2) {
+    width: 4%;
+    padding: 0;
+    text-align: center;
+}
+
+.cc-graph-plotter {
+    box-shadow: 0 16px 30px rgba(0,0,0,.1);
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -3.5rem;
+}
+
+.material-icons {
+    position: relative;
+    transform: translate( 0, -50% );
+    top: 50%;
+    color: #fff;
+}
+
+/* Footer */
+.cc-footer {
+    color: #777;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.cc-footer h2 {
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: #dadada;
+}
+
+.cc-footer .cc-tech {
+    background-color: #eaeaea;
+    text-decoration: none;
+    padding: .25rem .25rem;
+    border-bottom: 1px solid #dadada;
+    color: #aaa;
+    font-weight: 300;
+}
+
+.cc-footer .cc-tech:hover {
+    background-color: #dadada;
+}
+
+.cc-footer .cc-created-by {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+/* GitHub Logo */
+.cc-github-logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    max-width: 64px;
+    cursor: pointer;
+}
+
+.cc-github-logo path {
+    fill: #dadada;
+}
+
+.cc-github-logo:hover path {
+    fill: #ccc;
+}
